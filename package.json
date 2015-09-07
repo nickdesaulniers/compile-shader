@@ -1,0 +1,25 @@
+{
+  "name": "compile-shader",
+  "version": "0.0.1",
+  "description": "Used to compile a shader in WebGL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdesaulniers/compile-shader.git"
+  },
+  "keywords": [
+    "compile",
+    "shader",
+    "webgl",
+    "browserify"
+  ],
+  "author": "Nick Desaulniers",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/nickdesaulniers/compile-shader/issues"
+  },
+  "homepage": "https://github.com/nickdesaulniers/compile-shader#readme"
+}
