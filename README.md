@@ -2,10 +2,10 @@
 Used to compile a shader in WebGL.
 
 ## Usage
-`npm i shader-compiler`
+`npm i compile-shader`
 
 ```js
-var shaderCompiler = require('shader-compiler');
+var shaderCompiler = require('compile-shader');
 
 var gl = document.createElement('canvas').getContext('webgl');
 var type = gl.VERTEX_SHADER; // or gl.FRAGMENT_SHADER
