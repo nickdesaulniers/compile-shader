@@ -1,7 +1,7 @@
 //var addLineNumbers = require('add-line-numbers');
 
 module.exports = function (gl, type, shaderStr) {
-  if (type !== WebGLRenderingContext.prototype.VERTEX_SHADER ||
+  if (type !== WebGLRenderingContext.prototype.VERTEX_SHADER &&
       type !== WebGLRenderingContext.prototype.FRAGMENT_SHADER) {
     throw Error('Bad shader type');
   }
